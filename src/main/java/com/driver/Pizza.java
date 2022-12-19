@@ -59,7 +59,8 @@ public class Pizza {
         // your code goes here
         if(checkTakeAway==0){
         this.price+=20;
-        this.bill+="Paperbag Added: 20\n";}
+        this.bill+="Paperbag Added: 20\n";
+        }
         checkTakeAway=1;
     }
 
